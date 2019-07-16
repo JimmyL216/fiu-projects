@@ -1,0 +1,111 @@
+html body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background-color: lightgreen;
+  position: absolute;
+  top: 250px;
+  left: 550px;
+}
+
+div.column {
+  display: inline-block;
+}
+
+ul.buttons {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.row1 button {
+  background-color: gray;
+  font-size: 30px;
+  color: white;
+  border: none;
+  /* border-color: red; */
+  padding: 0px;
+  margin: 0px -2px;
+  width: 50px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+li.row2 button {
+  background-color: gray;
+  font-size: 30px;
+  color: white;
+  border: none;
+  /* border-color: red; */
+  padding: 0px;
+  margin: 0px -2px;
+  width: 50px;
+  font-family: 'Chakra Petch', sans-serif;
+  position: relative;
+  /* top: -40px; */
+  /* left: 00px; */
+}
+
+li.row3 button {
+  background-color: gray;
+  font-size: 30px;
+  color: white;
+  border: none;
+  /* border-color: red; */
+  padding: 0px;
+  margin: 0px -2px;
+  width: 50px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+li.row4 button {
+  background-color: orange;
+  font-size: 30px;
+  color: white;
+  border: none;
+  /* border-color: red; */
+  padding: 0px;
+  margin: 0px -2px;
+  width: 50px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+li.toprow button {
+  background-color: black;
+  font-size: 30px;
+  color: white;
+  border: none;
+  /* border-color: red; */
+  padding: 0px;
+  margin: 0px -2px;
+  width: 50px;
+  /* height: 37px; */
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+li.zero button {
+  background-color: gray;
+  font-size: 30px;
+  color: white;
+  border: none;
+  /* border-color: red; */
+  padding: 0px;
+  margin: 0px -2px;
+  width: 50px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+p.display {
+  background-color: black;
+  color: white;
+  padding: 0px;
+  width: 200px;
+  height: 60px;
+  margin: 0px 0px 0px -2px;
+  font-size: 60px;
+  text-align: right;
+  border: none;
+  font-family: 'Chakra Petch', sans-serif;
+}

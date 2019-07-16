@@ -1,0 +1,85 @@
+html, body {
+  padding: 0;
+  margin: 0;
+
+  body h1 {
+    background-color: red;
+    text-align: center;
+  }
+
+  body div.grid_container {
+    background-color: blue;
+    padding: 20px;
+  }
+
+  body div.grid_container div.row {
+    background-color: pink;
+    /* height: 250px; */
+  }
+
+  body div.grid_container div.row div.profile_image {
+    width: 300px;
+    background-color: green;
+    display: inline-block;
+  }
+
+  body div.grid_container div.row div.profile_image img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  body div.grid_container div.row div.skills {
+    vertical-align: top;
+    background-color: orange;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  body div.grid_container div.row div.personal_info {
+    background-color: maroon;
+    width: 300px;
+    display: inline-block;
+  }
+
+  body div.grid_container div.row div.personal_info ul {
+    list-style: none;
+  }
+
+  body div.grid_container div.row div.personal_info ul span.key {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  body div.grid_container div.row div.personal_info ul span.key {
+    width: 100px;
+  }
+
+  body div.grid_container div.row div.aspirations {
+    vertical-align: top;
+    background-color: coral;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  body div.grid_container div.row div hr {
+    overflow: visible;
+    /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #00b248;
+    border-width: 1px 0 0 0;
+    border-radius: 20px
+  }
+
+  body div.grid_container div.row div hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #00b248;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }

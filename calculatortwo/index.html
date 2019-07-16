@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator 2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <span>
+    <p class="display" id="demo">0</p>
+  </span>
+  <div class="column">
+    <ul class="buttons">
+      <li class="toprow"> <button onclick="clear()">AC</button></li>
+      <li class="row1"> <button id="7" value="7" onclick="reply_click(this.id)">7</button></li>
+      <li class="row1"> <button id="4" value="4" onclick="reply_click(this.id)">4</button></li>
+      <li class="row1"> <button id="1" value="1" onclick="reply_click(this.id)">1</button></li>
+      <li class="zero"> <button id="0" value="0" onclick="reply_click(this.id)">0</button></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <ul class="buttons">
+      <li class="toprow"> <button>+/-</button></li>
+      <li class="row2"> <button id="8" value="8" onclick="reply_click(this.id)">8</button></li>
+      <li class="row2"> <button id="5" value="5" onclick="reply_click(this.id)">5</button></li>
+      <li class="row2"> <button id="2" value="2" onclick="reply_click(this.id)">2</button></li>
+      <li class="row2"> <button>( )</button></li>
+
+    </ul>
+  </div>
+
+  <div class="column">
+    <ul class="buttons">
+      <li class="toprow"> <button>%</button></li>
+      <li class="row3"> <button id="9" value="9" onclick="reply_click(this.id)">9</button></li>
+      <li class="row3"> <button id="6" value="6" onclick="reply_click(this.id)">6</button></li>
+      <li class="row3"> <button id="3" value="3" onclick="reply_click(this.id)">3</button></li>
+      <li class="row3"> <button>.</button></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <ul class="buttons">
+      <li class="row4"> <button>÷</button></li>
+      <li class="row4"> <button>x</button></li>
+      <li class="row4"> <button>-</button></li>
+      <li class="row4"> <button>+</button></li>
+      <li class="row4"> <button>=</button></li>
+    </ul>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

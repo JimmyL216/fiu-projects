@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cable Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <div class="body">
+      <section class="title">
+        <div class="top">
+          <img src="fiu.png" alt="FIU">
+          <span>Roary Panther</span>
+        </div>
+        <br><br>
+        <h2>Telecommunication Room Checklist</h2>
+
+      </section>
+
+      <form class="form" action="index.html" method="post">
+
+        <section class="room">
+          <h3>Primera Casa(PC)</h3>
+          <!-- dropdown -->
+
+        </section>
+
+        <!-- section 1  -->
+        <div class="sections">
+          <section>
+            <p>Door Access Type:</p>
+            <input type="radio" name="access" value="" id="locknetics">
+            <label for="locknetics">Locknetics (Card Swipe)</label>
+            <input type="radio" name="access" value="" id="phyiscalKey">
+            <label for="phyiscalKey">Phyiscal Key</label>
+          </section>
+          <!-- section 2  -->
+          <section class="gray">
+            <p>Is the Switch connected to Emergency Power?</p>
+            <input type="radio" name="connect" value="Yes" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="connect" value="No" id="no">
+            <label for="no">No</label>
+            <input type="radio" name="connect" value="Other" id="other">
+            <label for="other">Other</label>
+            <input type="text" name="" value="" id="input">
+          </section>
+          <!-- section 3 -->
+          <section>
+            <p>Are the rack and ladder tray grounded correctly?</p>
+            <input type="radio" name="grounded" value="Rack" id="rack">
+            <label for="rack">Rack</label>
+            <input type="radio" name="grounded" value="Ladder" id="ladder">
+            <label for="ladder">Ladder</label>
+          </section>
+          <!-- section 4 -->
+          <section class="gray">
+            <p>Are there Fire Stoppers inside/around the conduits?</p>
+            <input type="radio" name="conduits" value="Yes" id="yes2">
+            <label for="yes2">Yes</label>
+            <input type="radio" name="conduits" value="No" id="no2">
+            <label for="no2">No</label>
+          </section>
+          <!-- section 5 -->
+          <section>
+            <p>Is there A/C in the Telecomm Room?</p>
+            <input type="radio" name="AC" value="Yes" id="yes3">
+            <label for="yes3">Yes</label>
+            <input type="radio" name="AC" value="No" id="no3">
+            <label for="no3">No</label>
+          </section>
+          <!-- section 6 -->
+          <section class="gray">
+            <p>What type of A/C is in the Telecom Room?</p>
+            <input type="radio" name="typeAC" value="Split Unit" id="split">
+            <label for="split">Split Unit</label>
+            <input type="radio" name="typeAC" value="Fan Coil Unit" id="FanCoil">
+            <label for="FanCoil">Fan Coil Unit</label>
+            <input type="radio" name="typeAC" value="Don't Know" id="dk">
+            <label for="dk">Don't Know</label>
+          </section>
+          <!-- section 7 -->
+          <section>
+            <p>What type of Rack is installed?</p>
+            <input type="radio" name="typeRack" value="2 Post Rack" id="twopost">
+            <label for="twopost">2 Post Rack</label>
+            <input type="radio" name="typeRack" value="4 Post Rack" id="fourpost">
+            <label for="fourpost">4 Post Rack</label>
+            <input type="radio" name="typeRack" value="Wall-mounted Rack (Swing)" id="wallrack">
+            <label for="wallrack">Wall-mounted Rack (Swing)</label>
+            <input type="radio" name="typeRack" value="Wall-mounted Cabinet" id="wallcabinet">
+            <label for="wallcabinet">Wall-mounted Cabinet</label>
+            <input type="radio" name="typeRack" value="Wall-mounted Bracket" id="wallbracket">
+            <label for="wallbracket">Wall-mounted Bracket</label>
+          </section>
+          <!-- section 8 -->
+          <section class="gray">
+            <p>How many Racks are in this Telecomm Room in total?</p>
+            <input type="text" name="" value="" id="input2">
+          </section>
+          <!-- section 9 -->
+          <section>
+            <p>Is the Telecomm Room shared?</p>
+            <input type="radio" name="shared" value="Yes" id="yes4">
+            <label for="yes4">Yes</label>
+            <input type="radio" name="shared" value="No" id="no4">
+            <label for="no4">No</label>
+            <div class="if">
+              <input type="radio" name="shared" value="Access Control" id="accessControl">
+              <label for="accessControl">Access Control</label>
+              <input type="radio" name="shared" value="MTS (Media)" id="mts">
+              <label for="mts">MTS (Media)</label>
+              <input type="radio" name="shared" value="Facilities (Burglar)" id="facilitiesB">
+              <label for="facilitiesB">Facilities (Burglar)</label>
+              <input type="radio" name="shared" value="Facilities (Fire)" id="facilitiesF">
+              <label for="facilitiesF">Facilities (Fire)</label>
+            </div>
+
+          </section>
+          <!-- section 10 -->
+          <section class="gray">
+            <p>How is the access to the Telecomm?</p>
+            <input type="radio" name="howAccess" value="Restricted" id="restricted">
+            <label for="restricted">Restricted</label>
+            <input type="radio" name="howAccess" value="Unrestricted" id="unrestricted">
+            <label for="unrestricted">Unrestricted</label>
+            <div class="if">
+              <input type="radio" name="howAccess" value="Electrical Room" id="electrical">
+              <label for="electrical">Electrical Room</label>
+              <input type="radio" name="howAccess" value="Mechanical Room" id="mechanical">
+              <label for="mechanical">Mechanical Room</label>
+              <input type="radio" name="howAccess" value="Office" id="office">
+              <label for="office">Office</label>
+              <input type="radio" name="howAccess" value="Other" id="other2">
+              <label for="other2">Other</label>
+            </div>
+          </section>
+          <!-- section 11 -->
+          <section>
+            <input type="button" name="Save" value="Save">
+          </section>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

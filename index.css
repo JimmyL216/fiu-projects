@@ -1,0 +1,54 @@
+
+
+body {
+  background-color: #66ccff;
+  color: black;
+}
+
+
+p{
+  background-color: tomato;
+  color: white;
+  font-size: 40px;
+}
+
+h1 {
+  background-color: #47476b;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h2{
+  background-color: #65FF72;
+  color: #FF6199;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+
+}
+
+ul {
+  background-color: #61FF8C;
+  color: #B32023;
+}
+
+
+button {
+  background-color: #D1FF1E; /* Green */
+  border: none;
+  color: #7400B3;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex; justify-content: center;
+  border-radius: 20px;
+
+}
+
+
+img{
+}

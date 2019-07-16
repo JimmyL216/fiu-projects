@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MATH</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="form">
+
+    <div class="heading">
+      <h1>Payment Calculator</h1>
+    </div>
+
+    <div class="inputs">
+      <form class="input1" action="index.html">
+
+        <div class="section">
+          <div class="subtotal">
+            <!-- <p id="subtotal">Subtotal:</p>  -->
+            <input type="text" name="subtotal" placeholder="$ 0.00" id="subtotal1">
+            <!-- <br><br><br><br> -->
+          </div>
+          <!-- <hr id="break"> -->
+        </div>
+        <br><br>
+
+        <!-- SECTION 1 -->
+        <div class="text">
+          <ul class="part">
+            <li class="list">
+              <span class="label">Total:</span>
+              <span class="number" id='subtotal2'>0</span> </li>
+            <li class="list">
+              <span class="label">Tax(7%):</span>
+              <span class="number" id='tax'>0</span>
+            </li>
+            <li class="list">
+              <span class="label">Fee:</span>
+              <span class="number">25</span>
+            </li>
+            <li class="list">
+              <span class="label2" id="grandlabel">Grand Total:</span>
+              <span class="number2" id="grandtotal">0</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SECTION 2 -->
+        <div class="text2">
+          <ul class="part2">
+            <br><br>
+            <hr id="break">
+            <br><br>
+            <div class="payment">
+              <p id="payment">Payments</p>
+              <input type="text" name="payments" id="payment1" placeholder="0">
+              <br>
+              <p id="message">(Maximum payments allowed 12)</p>
+            </div>
+            <br><br>
+            <div class="gray">
+              <li class="line">
+                <span class="label2" id="down">Down Payment:</span>
+                <span class="number2" id="downpayment">0</span> </li>
+              <li class="line">
+                <span class="label2" id="perCheck">Payments Per Check:</span>
+                <span class="number2" id="monthly">0</span> </li>
+            </div>
+
+          </ul>
+
+        </div>
+
+
+
+      </form>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

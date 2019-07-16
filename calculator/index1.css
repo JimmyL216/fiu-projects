@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* background-color: pink; */
+}
+
+html, body {
+  height: 100%;
+  background-color: lightblue;
+  /* color: #00ffcc; */
+}
+
+div.row {
+  height: 5%;
+}
+
+button {
+  margin: 0;
+}
+
+div.row {
+  margin-top: -3px;
+}
+
+button.numkey {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 15px;
+  margin: 5px -2px;
+  border: 1px solid gray;
+  font-size: 14px;
+  width: 50px;
+  cursor: pointer;
+}
+
+button.signkey {
+  background-color: orange;
+  color: white;
+  padding: 15px;
+  margin: 5px -2px;
+  border: 1px solid gray;
+  font-size: 14px;
+  width: 50px;
+  cursor: pointer;
+}
+
+button.topkey {
+  background-color: #d9d9d9;
+  color: black;
+  padding: 15px;
+  margin: 5px -2px;
+  border: 1px solid gray;
+  font-size: 14px;
+  width: 50px;
+  cursor: pointer;
+}
+
+button.zero {
+  background-color: #4d4d4d;
+  color: white;
+  width: 100px;
+  height: 47.9px;
+  text-align: center;
+  border: 1px solid gray;
+  border-width: thin;
+  margin: 5px -2px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+div.input {
+  width: 203px;
+  text-align: right;
+  margin: -5px;
+  padding-top: 5px;
+  background-color: black !important;
+  color: white;
+}

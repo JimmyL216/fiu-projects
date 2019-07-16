@@ -1,0 +1,39 @@
+Get subtotal
+find subtotal with tax
+add $25 fee
+= total
+total * 10%(down payment)
+find down payment
+total - down payment
+= balance after down payment
+balance after down payment / payments customer choose
+= balance need to pay per payment
+take off any decimal if any
+= NEW balance need to pay per payment
+NEW need to pay per payment * payments customer choose
+= NEW balance after down payment
+total - NEW balance after down payment
+= NEW down payments
+
+
+****IF TOTAL OVER 3000****
+Get subtotal
+find subtotal with tax
+add $25 fee
+= total
+total - 3000
+= add to down payments
+3000 * 10%(down payment)
+find down payment
+3000 - down payment
+= balance after down payment
+balance after down payment / payments customer choose
+= balance need to pay per payment
+take off any decimal if any
+= NEW balance need to pay per payment
+NEW need to pay per payment * payments customer choose
+= NEW balance after down payment
+3000 - NEW balance after down payment
+= NEW down payments
+NEW down payment + add to down payments
+= ACTUAL down payments
